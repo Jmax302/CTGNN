@@ -1,0 +1,16 @@
+batch_size,1024
+candidate_count,100
+dataset,ctgnn_clothes
+dropout_rate,0.2
+gpu,0
+hidden_units,128
+info,none
+l2_emb,0.0
+lr,0.001
+maxlen,15
+n_layers,5
+num_blocks,2
+num_epochs,200
+num_heads,1
+test_epoch,20
+train_dir,data/ctgnn/
