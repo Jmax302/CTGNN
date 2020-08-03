@@ -82,7 +82,7 @@ if __name__ == '__main__':
     cc = 0.0
     for u in user_train:
         cc += len(user_train[u])
-    print('average sequence length: %.2f' % (cc / len(user_train)))
+    # print('average sequence length: %.2f' % (cc / len(user_train)))
 
     f = open(os.path.join(args.dataset + '_' + args.train_dir, 'log.txt'), 'w')
     config = tf.ConfigProto()
