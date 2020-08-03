@@ -25,7 +25,7 @@ Project Struct
 
 Recommended Setup
 ------
-You can run the main.py directly for easily running the program. 
+You can run the main_ctgnn.py directly for easily running the program. 
 If you run the code on linux, just running the following command:<br>
 <br>
       `python main_ctgnn.py`
